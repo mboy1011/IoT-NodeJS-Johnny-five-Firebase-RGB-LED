@@ -15,7 +15,7 @@ var blue = db.child('blue');
 var green = db.child('green');
 var red = db.child('red');
 /*//*/
-/*Reset Colors Database into default value.*/
+/*Reset Colors Database into default value everytime it is executed.*/
 arduino.database().ref('colors').set({
 	'blue'  : bState,
 	'green' : gState,
