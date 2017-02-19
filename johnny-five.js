@@ -9,7 +9,7 @@ var arduino = firebase.initializeApp(config);
 /*//*/
 var r,g,b; //Red, Green, Blue colors of led light.
 var rState = 0, gState = 0, bState = 0;
-/*Create Database on Firebase*/
+/*Reference of the Database on Firebase*/
 var db = firebase.database().ref().child('colors');
 var blue = db.child('blue');
 var green = db.child('green');
