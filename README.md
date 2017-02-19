@@ -2,7 +2,7 @@
 --------------
 This project is about IoT (Internet of Things) using NodeJS, Johnny-five, and Firebase.
 --------------
-Requirements: 
+Requirements: <br>
   -NodeJS <br>
   -Firebase Account <br>
   -Johnny-five <br>
