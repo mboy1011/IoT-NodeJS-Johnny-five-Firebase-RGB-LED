@@ -15,7 +15,7 @@ Setup:
       - npm install johnny-five
       - npm install firebase
   4. Run johnny-five.js.
-      - node johnny-five.js
+      - node johnny-five.js <br>
 johnny-five and firebase modules for NodeJS are already included in the folder node-modules.
 =======================
 #Note: For Educational and Purposes Only.
