@@ -3,13 +3,48 @@
 <head>
 	<title>IoT</title>
 	<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+	<div>
+	<p>BLUE</p>
+	<input type="button" id="ON1" value="ON">
+	<input type="button" id="OFF1" value="OFF">
+	<p>GREEN</p>
+	<input type="button" id="ON2" value="ON">
+	<input type="button" id="OFF2" value="OFF">
+	<p>RED</p>
+	<input type="button" id="ON3" value="ON">
+	<input type="button" id="OFF3" value="OFF">
+	</div>
 	<script>
+	$(document).ready(function() {
   	var app = new Firebase("https://colors-45ade.firebaseio.com/colors");
-  	app.child("blue").set(1);
-  	app.child("green").set(0);
-  	app.child("red").set(1);
+	  	$("#ON1").click(function(event) {
+	  		app.child("blue").set(1);
+	  		console.log("blue is on");
+	  	});
+	  	$("#OFF1").click(function(event) {
+	  		app.child("blue").set(0);
+	  		console.log("blue is off");
+	  	});
+	  	$("#ON2").click(function(event) {
+	  		app.child("green").set(1);
+	  		console.log("green is on");
+	  	});
+	  	$("#OFF2").click(function(event) {
+	  		app.child("green").set(0);
+	  		console.log("green is off");
+	  	});
+	  	$("#ON3").click(function(event) {
+	  		app.child("red").set(1);
+	  		console.log("red is on");
+	  	});
+	  	$("#OFF3").click(function(event) {
+	  		app.child("red").set(0);
+	  		console.log("red is off");
+	  	});
+	});
 	</script>
 </body>
 </html>
