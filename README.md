@@ -2,12 +2,12 @@
 --------------
 This project is about IoT (Internet of Things) using NodeJS, Johnny-five, and Firebase.
 --------------
-Requirements:
-  -NodeJS
-  -Firebase Account
-  -Johnny-five
-  -Arduino Uno R3 Kits
-  -Circuit Diagram: https://circuits.io/circuits/4053013-rgb-led
+Requirements: 
+  -NodeJS <br>
+  -Firebase Account <br>
+  -Johnny-five <br>
+  -Arduino Uno R3 Kits <br>
+  -Circuit Diagram: https://circuits.io/circuits/4053013-rgb-led <br>
 Setup:
   1. Open Arduino IDE -> Files->Examples->StandardFirmata (For Johnny-five requirements).
   2. Install NodeJS.
