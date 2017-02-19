@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IoT</title>
+	<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+</head>
+<body>
+	<script>
+  	var app = new Firebase("https://colors-45ade.firebaseio.com/colors");
+  	app.child("blue").set(1);
+  	app.child("green").set(0);
+  	app.child("red").set(1);
+	</script>
+</body>
+</html>
