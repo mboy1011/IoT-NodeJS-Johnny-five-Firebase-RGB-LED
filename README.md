@@ -18,7 +18,7 @@ Setup:
   5. Run johnny-five.js on your terminal.
       - node johnny-five.js <br>
 johnny-five and firebase modules for NodeJS are already included in the folder node-modules.<br>
-Export colors-45ade-export.json to your firebase database.
+Export colors-45ade-export.json to your firebase database.<br>
 =======================<br>
 #Note: For Educational and Purposes Only.<br>
 Hope You Like IT.
